@@ -1,0 +1,5 @@
+cd 到本文件夹目录, 依次运行以下指令
+
+python fetch.py --limit 10  # 或者你喜欢的数量
+
+python train_main.py 

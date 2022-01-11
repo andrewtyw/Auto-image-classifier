@@ -1,0 +1,13 @@
+这个部分是部署在服务器上的,  所有没有main.py, 也没有exe文件
+
+访问http://120.24.230.237:81/来查看部署的网页
+
+文件结构
+--files #用户上传的图片
+--model
+   --predict_service.py  # 图片预测服务
+   --resnet.py
+--model_weight
+   --label2name_resnet34.pkl  #ld到类别名的映射字典
+   --restnet_resnet34_0.8741_.pth 训练好的模型权重
+--fish.log #12月13号到15号的服务器日志
