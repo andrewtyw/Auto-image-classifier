@@ -7,7 +7,11 @@ Actually, the concept is quite simple. First you need to define the categories t
 
 ### file structure
 scrape_train/  is about scraping photos and training.
+
+
 flask_fish_reco/ is the web development with Flask.
+
+
 neural_vue/ is the user interfaces using Vue.
 
 ### how it looks? ↓
